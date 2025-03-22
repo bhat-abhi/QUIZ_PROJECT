@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: Alice Blue; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color:  green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover {
+    background-color: darkgreen;
+}
+
+#message {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#quiz-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#timer, #score {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#question-container {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#options-container {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left; 
+}
+
+#options-container label {
+    display: block;
+    padding: 10px;
+    margin: 8px 0;
+    background-color:  lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#options-container label:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+input[type="radio"]:disabled + label {
+    background-color: lightgray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+#next-button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+#next-button:hover {
+    background-color: darkgreen;
+}

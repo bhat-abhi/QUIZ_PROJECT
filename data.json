@@ -1,0 +1,23 @@
+[
+    {
+        "question": " What is the capital of kashmir?",
+        "options": ["Anantnag", "Jammu", "Srinagar", "Rajouri"],
+        "correctAnswer": "Srinagar"
+    },
+    {
+        "question": "what does CSS stand for?",
+        "options": ["Computer style sheet", "Creative style sheet", "Cascading Style sheet", "Clourful style sheet"],
+        "correctAnswer": "Cascading Style sheet"
+    },
+    {
+        "question": "Who among the following has designed the JavaScript programing language??",
+        "options": [" Rasmus Lerdorf", "Brendan Eich", "James Gosling", " Guido van Rossum"],
+        "correctAnswer": "Brendan Eich"
+    },
+
+    {
+        "question": "The Third Generation Computer used …?",
+        "options": ["Transistors", "Integrated circuits", "vacuum tube", "chip"],
+        "correctAnswer": "Integrated circuits"
+    }
+]
